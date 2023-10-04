@@ -4,4 +4,67 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  color: lightgrey;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+}
+#container {
+  background-color: black;
+  margin-top: 50px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  font-size: medium;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  margin: 0 52px;
+}
+main {
+  display: flex;
+  height: 320px;
+}
+.primary-bg {
+  background-color: blue;
+}
+.window-wrapper {
+  padding: 8px 4px;
+}
+footer > div {
+  margin: 0 8px;
+  font-size: medium;
+  color: black;
+}
+footer > div > span {
+  color: red;
+  font-weight: bold;
+}
+.window {
+  display: flex;
+  flex-direction: column;
+  padding: 4px 3px;
+}
+.window > .title {
+  display: flex;
+  align-self: center;
+  color: white;
+  position: relative;
+  top: -14px;
+  background-color: blue;
+  padding: 0 8px;
+  font-size: 16px;
+}
+.single-line-green {
+  border: medium solid green;
 }
